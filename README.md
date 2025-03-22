@@ -1,17 +1,12 @@
 # mit-ajl-9
-Make this change on irene_second_submission.ipynb:\
-\# Define the directory paths\
-train_dir = 'sampled_train_data' (before it was something else) 
-
-Recommend adding f1 score eval when you train your model
 
 ## User Guide
-1. Download the ipynb file (Newest version on Mar. 21, 2025: irene_second_submission.ipynb)
+1. Download the ipynb file (Newest version on Mar. 22, 2025: pending-submission-four)
 2. Upload it to Google Colab
 3. Download the data zip from Kaggle and upload it to Google Drive (under MyDrive)
-4. You can run the code in Google Colab now!
+4. Go to this link and download this code locally, then upload same code to Google colab: https://drive.google.com/drive/folders/1Ym_x3cKsYC2PhdwhtcOHqvNaKzdKIr_v?usp=sharing
+5. Run these code blocks in order: first code block, code block 3-22 (ignore weird debugging output, its kinda out of order sorry), run the code block after this line (!zip -r model_backup.zip, ctrl f to find it)
 
-*Using other ipynb files:
-irene_notebook2.ipynb: Make sure to delete the code in irene_notebook2 that's commented with "filtered dataset"-- we actually don't need to filter the dataset because there're 21 skin conditions, not 16.
+Explanation for code: basically it includes an initial training and the first stage of fine-tuning for the model above but now I want to do a second stage of fine-tuning, which is why you would run the code block after this line (!zip -r model_backup.zip, ctrl f to find it). You need to upload the files in my Google Drive folder link above because it contains the model history for the initial training and first stage fine-tuning so that you don't have to rerun it again yourself. please let the groupchat know if you have any questions, thank you! 
 
 ## Team & Contribution

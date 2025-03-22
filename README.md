@@ -13,3 +13,5 @@ Recommend adding f1 score eval when you train your model
 
 *Using other ipynb files:
 irene_notebook2.ipynb: Make sure to delete the code in irene_notebook2 that's commented with "filtered dataset"-- we actually don't need to filter the dataset because there're 21 skin conditions, not 16.
+
+## Team & Contribution

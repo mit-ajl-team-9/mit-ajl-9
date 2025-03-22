@@ -1,5 +1,6 @@
 # mit-ajl-9
-Make this change on irene_second_submission.ipynb: # Define the directory paths
+Make this change on irene_second_submission.ipynb:\
+\# Define the directory paths\
 train_dir = 'sampled_train_data' (before it was something else) 
 
 Recommend adding f1 score eval when you train your model

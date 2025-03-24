@@ -79,5 +79,5 @@ We don't have visualizations from our EDA yet.
 [Mina Shimada](https://github.com/minashim)\
 [Danaid Sinani](https://github.com/mrsinani)\
 [Valentina Haddad](https://github.com/Valentina-Haddad25)\
-[JinYu (Dora) Li](https://github.com/Dorajyl)\
+[JinYu (Dora) Li](https://github.com/Dorajyl)
 

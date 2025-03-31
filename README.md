@@ -10,7 +10,7 @@ The first goal is to develop a multi-class classification model that can accurat
 ### Real-World Significance and Potential Impact
 Current dermatology AI systems are often trained on non-diverse datasets, leading to underperformance for people with darker skin tones. This perpetuates health disparities by causing misdiagnoses, delayed treatments, and poorer health outcomes for marginalized groups. By developing a model that performs equitably across all skin tones, this project has the potential to 1) reduce diagnostic errors for underrepresented skin types, 2) improve healthcare outcomes by ensuring timely and accurate diagnoses, and 3) promote fairness and accountability in AI applications, aligning with AJL's mission to prevent algorithmic harm.
 
-## User Guide
+## User Guide (Setup & Execution)
 
 1. Download the notebook file (latest version as of Mar. 30, 2025: `irene_last_submission.ipynb`).
 2. Upload the notebook to Google Colab.
@@ -31,12 +31,7 @@ The dataset is a subset of the FitzPatrick17k dataset, consisting of approximate
 * qc: Quality control checks by board-certified dermatologists (available for a limited subset).
 * ddi_scale: A column used for dataset reconciliation (not relevant to the competition task).
 
-The dataset contains 21 distinct skin conditions, with clear class imbalances. Conditions such as acne vulgaris are overrepresented, while rare conditions have fewer samples, which could impact model performance.
-
-
-Skin Tone Representation
-
-The FitzPatrick scale ranges from 1 (light) to 6 (dark). The distribution reveals an underrepresentation of darker skin tones, highlighting the need for fairness-aware modeling techniques.
+The dataset contains 21 distinct skin conditions, with clear class imbalances. Conditions such as acne vulgaris are overrepresented, while rare conditions have fewer samples, which could impact model performance. The FitzPatrick scale ranges from 1 (light) to 6 (dark). The distribution reveals an underrepresentation of darker skin tones, highlighting the need for fairness-aware modeling techniques.
 
 ### Preprocessing Approaches
 To prepare the data for model training, the following preprocessing techniques were applied:
@@ -69,14 +64,21 @@ The training generator applies image augmentation to improve generalization, whi
 
 To address class imbalance, we applied oversampling techniques to increase the representation of underrepresented skin tones, helping the model perform more fairly across different groups.
 
-### Next Steps & Future Improvements
+### Model Development
+Model selection, hyperparameter tuning, and training approach, with justification for choices.
 
+### Results & Key Findings
+Overall model performance using the evaluation metric, along with key insights and appropriate visuals.
+
+### Impact Narrative
+Specific steps taken to address model fairness. Explores the broader potential impact of their work. Incorporates creative storytelling technique(s) to make the work accessible.
+
+### Next Steps & Future Improvements
 - Visualize metrics: Plot training vs. validation accuracy/F1 to spot overfitting and monitor score improvements.
 - Try stronger models: Experiment with larger versions of EfficientNet or ResNet.
 - Train longer: Run for more epochs with early stopping to improve accuracy.
 - Measure fairness: Compare model performance across different skin tones.
 - Use ensembles: Combine multiple models to get more reliable results.
-
 
 ## Team & Contribution
 [Irene Deng](https://github.com/irened123): Co-leader. Explored different models and fine-tuned them. Fixed many bugs and made several high-score submissions.\

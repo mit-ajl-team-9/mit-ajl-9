@@ -11,13 +11,10 @@ The first goal is to develop a multi-class classification model that can accurat
 Current dermatology AI systems are often trained on non-diverse datasets, leading to underperformance for people with darker skin tones. This perpetuates health disparities by causing misdiagnoses, delayed treatments, and poorer health outcomes for marginalized groups. By developing a model that performs equitably across all skin tones, this project has the potential to 1) reduce diagnostic errors for underrepresented skin types, 2) improve healthcare outcomes by ensuring timely and accurate diagnoses, and 3) promote fairness and accountability in AI applications, aligning with AJL's mission to prevent algorithmic harm.
 
 ## User Guide
-1. Download the ipynb file (Newest version on Mar. 22, 2025: pending-submission-4)
+1. Download the ipynb file (Newest version on Mar. 30, 2025: irene_last_submission.ipynb)
 2. Upload it to Google Colab
 3. Download the data zip from Kaggle and upload it to Google Drive (under MyDrive)
-4. Go to this link and download this code locally, then upload same code to Google colab: https://drive.google.com/drive/folders/1Ym_x3cKsYC2PhdwhtcOHqvNaKzdKIr_v?usp=sharing
-5. Run these code blocks in order: first code block, code block 3-22 (ignore weird debugging output, its kinda out of order sorry), run the code block after this line (!zip -r model_backup.zip, ctrl f to find it)
-
-Explanation for code: basically it includes an initial training and the first stage of fine-tuning for the model above but now I want to do a second stage of fine-tuning, which is why you would run the code block after this line (!zip -r model_backup.zip, ctrl f to find it). You need to upload the files in my Google Drive folder link above because it contains the model history for the initial training and first stage fine-tuning so that you don't have to rerun it again yourself. please let the groupchat know if you have any questions, thank you! 
+4. Run the code in order 
 
 ## Data Exploration
 ### Dataset Description
@@ -70,8 +67,14 @@ Potential improvements can be class balancing
 
 Applied oversampling techniques to underrepresented skin tones to reduce class imbalance effects.
 
-### Visualizations from the Exploratory Data Analysis (EDA)
-We don't have visualizations from our EDA yet.
+### Next Steps & Future Improvements
+
+- Visualize metrics: Plot training vs. validation accuracy/F1 to spot overfitting and monitor score improvements.
+- Try stronger models: Experiment with larger versions of EfficientNet or ResNet.
+- Train longer: Run for more epochs with early stopping to improve accuracy.
+- Measure fairness: Compare model performance across different skin tones.
+- Use ensembles: Combine multiple models to get more reliable results.
+
 
 ## Team & Contribution
 [Irene Deng](https://github.com/irened123)\

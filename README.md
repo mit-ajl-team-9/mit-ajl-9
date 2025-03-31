@@ -62,10 +62,9 @@ To prepare the data for model training, the following preprocessing techniques w
     * shuffle=True: Randomizes image order during training but keeps it fixed during validation.
 * Class balancing with augmentation: The code ensures that each class contains exactly 400 images by randomly sampling existing images if the class has more than 400 images and augmenting images to increase the count if the class has fewer than 400 images. This technique balances the dataset, ensuring all classes have an equal number of samples, which prevents the model from being biased toward classes with more images.
 
-The training generator uses augmentation. The validation generator uses only EfficientNet preprocessing without augmentation.\
-Potential improvements can be class balancing
+The training generator applies image augmentation to improve generalization, while the validation generator uses only EfficientNet preprocessing (no augmentation) to ensure accurate evaluation.
 
-Applied oversampling techniques to underrepresented skin tones to reduce class imbalance effects.
+To address class imbalance, we applied oversampling techniques to increase the representation of underrepresented skin tones, helping the model perform more fairly across different groups.
 
 ### Next Steps & Future Improvements
 

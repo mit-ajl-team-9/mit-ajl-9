@@ -5,7 +5,7 @@
 This project is part of the Spring 2025 Break Through Tech AI Studio, a collaboration between Break Through Tech and the Algorithmic Justice League (AJL). It involves the Kaggle competition "Equitable AI for Dermatology," which focuses on building inclusive dermatology AI models by training on a diverse dataset of skin conditions and skin tones. The competition aims to give the Virtual, Boston (MIT), and Los Angeles (UCLA) cohort hands-on experience with machine learning while addressing real-world social justice issues. 
 
 ### Objective of the Challenge
-The first goal is to develop a multi-class classification model that can accurately identify 21 skin conditions across a diverse range of skin tones using a subset of the FitzPatrick17k dataset provided in Kaggle. The competition uses a weighted average F1 score for evaluation to address class imbalances. We want to build a model with a high F1 score as well as high accuracy. In addition to focusing on overall model accuracy, another goal is to consider how dermatology AI models impact populations who have historically been marginalized and excluded in healthcare, possibly by using fairness and explainability tools, visualizations, and/or creative storytelling techniques to show how we have centered the “excoded” in the work.
+The first goal is to develop a multi-class classification model that can accurately identify 21 skin conditions across a diverse range of skin tones using a subset of the FitzPatrick17k dataset provided in Kaggle. The competition uses a weighted average F1 score for evaluation to address class imbalances. We want to build a model with a high F1 score as well as high accuracy. In addition to prioritizing overall model accuracy, another key goal is to examine the impact of dermatology AI models on historically marginalized groups in healthcare.
 
 ### Real-World Significance and Potential Impact
 Current dermatology AI systems are often trained on non-diverse datasets, leading to underperformance for people with darker skin tones. This perpetuates health disparities by causing misdiagnoses, delayed treatments, and poorer health outcomes for marginalized groups. By developing a model that performs equitably across all skin tones, this project has the potential to 1) reduce diagnostic errors for underrepresented skin types, 2) improve healthcare outcomes by ensuring timely and accurate diagnoses, and 3) promote fairness and accountability in AI applications, aligning with AJL's mission to prevent algorithmic harm.
@@ -21,7 +21,7 @@ Current dermatology AI systems are often trained on non-diverse datasets, leadin
 
 ## Data Exploration
 ### Dataset Description
-The dataset is a subset of the FitzPatrick17k dataset, consisting of approximately 4,500 labeled images representing 21 skin conditions. The dataset includes:
+The dataset is a subset of the FitzPatrick17k dataset, consisting of approximately 4,500 labeled images representing 21 skin conditions. The dataset includes
 * Images: Contained in images.zip, divided into train and test sets.
 * Metadata: Provided in train.csv and test.csv, including the following key columns:
 * md5hash: Unique identifier for each image.

@@ -79,10 +79,9 @@ To address class imbalance, we applied oversampling techniques to increase the r
 
 
 ## Team & Contribution
-[Irene Deng](https://github.com/irened123): Co-leader. Built and fine-tuned the models.\
-[Athena Bai](https://github.com/athena-bai): Co-leader. Built and fine-tuned the models.\
-[Mina Shimada](https://github.com/minashim): \
+[Irene Deng](https://github.com/irened123): Co-leader. Explored different models and fine-tuned them. Fixed many bugs and made several high-score submissions.\
+[Athena Bai](https://github.com/athena-bai): Co-leader. Explored different models and fine-tuned them. Documented the project.\
+[Mina Shimada](https://github.com/minashim): Explored a variety of models and contributed to discussions on the notebooks.\
 [Danaid Sinani](https://github.com/mrsinani): Performed data exploration and developed the starter notebook.\
-[Valentina Haddad](https://github.com/Valentina-Haddad25): \
-[JinYu (Dora) Li](https://github.com/Dorajyl): 
-
+[Valentina Haddad](https://github.com/Valentina-Haddad25): Built the initial pipeline and model.\
+[JinYu (Dora) Li](https://github.com/Dorajyl): Performed data exploration and contributed to discussions on the project plans.

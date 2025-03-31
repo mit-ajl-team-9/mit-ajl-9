@@ -11,10 +11,13 @@ The first goal is to develop a multi-class classification model that can accurat
 Current dermatology AI systems are often trained on non-diverse datasets, leading to underperformance for people with darker skin tones. This perpetuates health disparities by causing misdiagnoses, delayed treatments, and poorer health outcomes for marginalized groups. By developing a model that performs equitably across all skin tones, this project has the potential to 1) reduce diagnostic errors for underrepresented skin types, 2) improve healthcare outcomes by ensuring timely and accurate diagnoses, and 3) promote fairness and accountability in AI applications, aligning with AJL's mission to prevent algorithmic harm.
 
 ## User Guide
-1. Download the ipynb file (Newest version on Mar. 30, 2025: irene_last_submission.ipynb)
-2. Upload it to Google Colab
-3. Download the data zip from Kaggle and upload it to Google Drive (under MyDrive)
-4. Run the code in order 
+
+1. Download the notebook file (latest version as of Mar. 30, 2025: `irene_last_submission.ipynb`).
+2. Upload the notebook to Google Colab.
+3. Download the dataset ZIP file from Kaggle and upload it to your Google Drive (under `MyDrive`).
+4. Run the notebook cells in order.
+
+**Note:** For earlier versions and experiments, refer to the `old_runs/` folder.
 
 ## Data Exploration
 ### Dataset Description
